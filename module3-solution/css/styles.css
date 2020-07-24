@@ -1,0 +1,122 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #093426;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER */
+#header-nav{
+    background-color: #FD4D0C;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand{
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+}
+
+.navbar-brand h1{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #F7DDD4;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .55;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: #F7DDD4;
+    text-align: center;
+    
+}
+
+#nav-list a:hover{
+    background: #448D76;
+    text-shadow: 1px 1px 1px #222;
+    font-weight: bolder;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #448D76;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -40px;
+}
+
+#main-content h1{
+    padding-bottom: 30px;
+}
+
+.row p{
+    background-color: #14B884;
+    color: #F7DDD4;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin: 0 15px 70px 15px;
+}
+
+.row p span{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 1px #093426;
+    font-weight: bold;
+}
+
+.row p a{
+    display: block;
+    color: #093426;
+}
+
+/* Medium Devices Only */
+@media(min-width: 992px) and (max-width: 1199px){
+  
+}
+
+/* Small Devices Only */
+@media(min-width: 768px) and (max-width: 991px){
+   
+}
+
+/* Extra Small Devices Only */
+@media(max-width: 767px){
+    #collapsable-nav a{
+        font-size: 1.2em;
+    }
+    .row p{
+        margin: 0 50px 70px 50px;
+    }
+}
+
+/* Super Extra Small Devices Only */
+@media(max-width: 479px){
+    .col-xxs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+}
